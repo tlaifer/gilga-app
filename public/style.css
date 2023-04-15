@@ -1,0 +1,46 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal {
+  border: 2px solid #fff;
+  height: 700px;
+  overflow: auto;
+  padding: 10px;
+  width: 1050px;
+  margin: 50px auto;
+}
+
+.output {
+  height: 5%;
+  margin-bottom: 10px;
+}
+
+.input-line {
+  display: flex;
+}
+
+.prompt {
+  color: #00ff00;
+  margin-right: 10px;
+}
+
+.cmdline {
+  background-color: transparent;
+  caret-color: #fff;
+  border: none;
+  color: #fff;
+  flex-grow: 1;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  font-size: 12px; 
+  width: 1050px;
+  margin: 50px auto;
+}
