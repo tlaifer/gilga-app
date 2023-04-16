@@ -33,22 +33,22 @@ var textLines = [
   "I studied philosophy and computer science and have worked in tech for 7 years.",
   "I currently lead engineering teams that design and develop AI applications.",
   "I explain how these systems work to all audiences, every day.",
-  "My work projects are multi-million dollar enterprise engagements for stuffy, corporate clients,",
+  "My work projects are multi-million dollar engagements for stuffy, corporate clients,",
   "but I'd like to use my craft to create things the world will love.",
   "",
   "So let me share some things you won't find on my resume...",
   "",
   "My ideal work environment is one where we have a mission and it matters.",
   "Where ideas flow like crazy and everyone is their unfiltered self.",
-  "One of possibility, not profitability.",
+  "A place of possibility, not profitability.",
   "And where I am surrounded by brilliant and bold minds with expertise that is hard to find.",
   "(Seriously, the best foot health advice I ever got is from the fitter at my bike shop).",
   "",
   "I am patient, dedicated, and driven to make anything possible.",
-  "Whatever I cannot solve myself, I'll get an AI to do it for me or hire the right person for the job.",
+  "Whatever I cannot solve myself, I'll get AI to do it for me or hire the person for the job.",
   "",
-  "I dig around YouTube and Spotify for the latest in African house music.",
-  "I'm still on the lookout for a Human Sacrifice release.",
+  "I dig around YouTube and Spotify for the latest African house tracks.",
+  "I'm still on the lookout for a release of 'Human Sacrifice'.",
   "And sometimes, I'll watch a movie just for the Ludwig Göransson score.",
   "",
   "",
@@ -65,10 +65,10 @@ function printStr(cmdLine, lines, lineIndex, strIndex) {
   var str = lines[lineIndex];
   if (strIndex > str.length) {
     if (str[strIndex-1] = '?') {
-      timer = 800;
+      timer = 900;
     }
     if (str[strIndex-1] = '.') {
-      timer = 300;
+      timer = 500;
     }
     cmdLine = newLine(cmdLine);
     lineIndex += 1;
