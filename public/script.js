@@ -30,7 +30,7 @@ var textLines = [
   "",
   "My skillset may be of interest...",
   "",
-  "I studied philosophy and computer science and have worked in tech for 7 years.",
+  "I studied philosophy and computer science and have worked in software for 7 years.",
   "I currently lead engineering teams that design and develop AI applications.",
   "I explain how these systems work to all audiences, every day.",
   "My work projects are multi-million dollar engagements for stuffy, corporate clients,",
