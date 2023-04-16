@@ -15,6 +15,7 @@ function newLine(cmdLine) {
   newInput.setAttribute('spellcheck', "false");
   newInput.setAttribute('class', 'cmdline');
   newInput.autofocus = true;
+  newInput.disabled = true
 
   newInputLine.appendChild(newPrompt);
   newInputLine.appendChild(newInput);
@@ -25,7 +26,7 @@ function newLine(cmdLine) {
 
 //Set default command
 var textLines = [
-  "So, Gilga is looking for a technical librarian?",
+  "So, you are looking for a technical librarian?",
   "",
   "My skillset may be of interest...",
   "",
@@ -41,7 +42,7 @@ var textLines = [
   "Where ideas flow like crazy and everyone is their unfiltered self.",
   "One of possibility, not profitability.",
   "And where I am surrounded by brilliant and bold minds with expertise that is hard to find.",
-  "(Seriously, the best foot health advice I ever got is from the fitter at my bike shop)",
+  "(Seriously, the best foot health advice I ever got is from the fitter at my bike shop).",
   "",
   "I am patient, dedicated, and driven to make anything possible.",
   "Whatever I cannot solve myself, I'll get an AI to do it for me or hire the right person for the job.",
@@ -65,6 +66,9 @@ function printStr(cmdLine, lines, lineIndex, strIndex) {
   if (strIndex > str.length) {
     if (str[strIndex-1] = '?') {
       timer = 800;
+    }
+    if (str[strIndex-1] = '.') {
+      timer = 300;
     }
     cmdLine = newLine(cmdLine);
     lineIndex += 1;
