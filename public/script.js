@@ -82,4 +82,6 @@ function printStr(cmdLine, lines, lineIndex, strIndex) {
 }
 
 // type away...
-printStr(cmdLine, textLines, 0, 0);
+setTimeout(() => {
+  printStr(cmdLine, textLines, 0, 0)
+}, 1000);
