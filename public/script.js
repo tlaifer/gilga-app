@@ -55,7 +55,7 @@ var textLines = [
   "PS - I skipped Coachella for this.",
 ]
 
-var defaultTimer = 35;
+var defaultTimer = 30;
  
 function printStr(cmdLine, lines, lineIndex, strIndex) {
   var timer = defaultTimer;
@@ -64,10 +64,10 @@ function printStr(cmdLine, lines, lineIndex, strIndex) {
   }
   var str = lines[lineIndex];
   if (strIndex > str.length) {
-    if (str[strIndex-1] = '?') {
+    if (str[strIndex - 2] == '?') {
       timer = 900;
     }
-    if (str[strIndex-1] = '.') {
+    if (str[strIndex - 2] == '.') {
       timer = 500;
     }
     cmdLine = newLine(cmdLine);
