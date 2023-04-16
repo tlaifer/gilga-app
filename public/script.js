@@ -36,7 +36,7 @@ var textLines = [
   "My work projects are multi-million dollar engagements for stuffy, corporate clients,",
   "but I'd like to use my craft to create things the world will love.",
   "",
-  "So let me share some things you won't find on my resume...",
+  "Let me share some things you won't find on my resume...",
   "",
   "My ideal work environment is one where we have a mission and it matters.",
   "Where ideas flow like crazy and everyone is their unfiltered self.",

@@ -44,3 +44,8 @@ body {
   width: 1050px;
   margin: 50px auto;
 }
+
+.resume-link {
+  color: #bee0ec;
+  display: contents;
+}
