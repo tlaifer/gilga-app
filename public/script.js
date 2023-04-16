@@ -28,7 +28,7 @@ function newLine(cmdLine) {
 var textLines = [
   "So, you are looking for a technical librarian?",
   "",
-  "My skillset may be of interest...",
+  "My skill set may be of interest...",
   "",
   "I studied philosophy and computer science and have worked in software for 7 years.",
   "I currently lead engineering teams that design and develop AI applications.",
